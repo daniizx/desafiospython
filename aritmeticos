@@ -1,0 +1,8 @@
+# 09 - Manipulando Texto
+- cadeia de caracteres/cadeia de texto ou string, para o python toda cadeia de texto esta em aspas simples ou aspas dupla.
+- Fatiamento é pegar ou escolher apenas uma string especifica. (frase [9:21:2]) quer dizer que vai do 9 até o 21 e esse (:2) quer dizer que do 9 até o 21 ele vai pulando 2. E lembrando que quando voce coloca por exemplo 1 ao 10 ele nao vai do 1 ao 10 ele ira parar em 1 antes no caso 9, isso só pra quando termina quando comeca ele comeca no que voce fala mesmo no caso o **1**, ( frase [:5] ) quando nao tem nenhum numero antes dos 2 pontos é o mesmo que dizer pra comecar do 0, entao no caso desse ele vai do 0 ao 4
+- len(frase), len significa cumprimento, entao ele ta querendo saber "qual cumprimento da frase?"
+
+1- frase.count ('o'), entao ele ta perguntando quantos "o" tem na frase
+
+2- frase.find ('deo') find quer dizer é encontrar, entao ele quer
