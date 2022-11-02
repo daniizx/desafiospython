@@ -1,0 +1,21 @@
+# Curso 09 - Manipulando Texto
+
+-Fatiamento é conseguir pegar partes das frases.
+
+- O ultimo valor nao entra na contagem entao se eu colocar 9:13 pegar do 9 até o 13 ele vai do 9 até o 12, entao pra eu realmente pegar do 9 ao 13 tenho que colocar (9:14). 
+- se tem (9:21:2) esse 2 no final significa que é pra pular de 2 em 2 que pra mim seria pular 1. 
+- (:5) isso significa que ele vai começar da onde tem a primeira caractere e terminar no 5 mas lembrando que python ignora a ultima contagem entao vai ate o 4 isso vale tambem para um exemplo tipo o (15:) eu indiquei o começo no caso na caractere 15 porem n falei aonde termina entao ira até o final. 
+- (9::3) aqui ta dizendo da onde começar no caso do 9 e esse 3 é pra pular de 3 em 3.
+- len significa comprimento.
+- count('o') significa contar quantas vezes vezes tem a letra "o". count ('o' 0.13) ele ta fazendo uma contagem da letra 'o' junto com um fatiamento entao no caso ele só ira contar quanmtos 'o' tem da caractere 0 até o 13, mas lembrando que ultima contagem nao conta entao ira ser do 0 ao 12.
+- find significa encontrar entao se eu colocar frase.find('deo') vai encontrar em que numero tem essa palavra. E SE EU COLOCAR "FIND.('ANDROID)" ELE VAI ME RETORNAR -1 ISSO SIGNIFICA QUE ESSE NEGOCIO QUE QUERO ACHAR NAO EXISTE.
+- replace significa trocar, entao no caso vai trocar uma palavra pela outra
+- upper quer dizer que é pra jogar as letras em minusculas pra maiusculas
+- e lower é a mesma coisa que upper só que ao contrario ele mantem as que ta em minusculas e as que ta maiusculas joga pra minuscula
+- capitalaze vai jogar toda a string pra minuscula e vai deixar só a primeira letra maiuscula.
+- title vai ler quantas palavras tem e nessas palavras ele vai colocar as primeiras letras maiuscula.
+- FRASE.STRIP, ele vai remover todos espaços inuteis.
+- Rstrip,tira só os espaços da direita, Lstrip tira só os espaços da esquerda e pra tirar todos é o strip normal.
+
+# Divisao
+- split 
